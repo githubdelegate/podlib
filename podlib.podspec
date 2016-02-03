@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
  s.license          = 'MIT'
  s.author           = { "gitalpine" => "ostmail@163.com" }
- s.source           = { :git => "https://github.com/githubdelegate/podfile.git", :tag => s.version.to_s }
+ s.source           = { :git => "https://github.com/githubdelegate/podlib.git", :tag => s.version.to_s }
 
 
  s.platform     = :ios, '7.0'
