@@ -1,0 +1,25 @@
+{
+  "name": "podlib",
+  "version": "0.1.0",
+  "summary": "A short description of podlib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/podlib",
+  "license": "MIT",
+  "authors": {
+    "gitalpine": "ostmail@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/podlib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "podlib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

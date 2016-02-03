@@ -7,12 +7,13 @@
 //
 
 #import "nbAppDelegate.h"
+#import <podlib/NBPodTest.h>
 
 @implementation nbAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [NBPodTest podTest];
     return YES;
 }
 
