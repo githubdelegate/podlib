@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'podlib_Example', :exclusive => true do
+  pod 'podlib', :path => '../'
+end
+
+target 'podlib_Tests', :exclusive => true do
+  pod 'podlib', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
